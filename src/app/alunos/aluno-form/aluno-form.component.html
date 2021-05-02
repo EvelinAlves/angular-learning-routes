@@ -1,0 +1,13 @@
+<h4>Criar/Editar Aluno</h4>
+<div class="mb-3">
+    <label for="id" class="form-label"><small>ID</small></label>
+    <input type="text" disabled [(ngModel)]="aluno.id" class="form-control" id="id" placeholder="Id">
+  </div>
+  <div class="mb-3">
+    <label for="nome" class="form-label"> <small>Nome</small></label>
+    <input type="text" [(ngModel)]="aluno.nome" class="form-control" id="nome" plac eholder="Nome" (input)="onInput()">
+  </div>
+  <div class="mb-3">
+    <label for="email" class="form-label"> <small>E-mail</small></label>
+    <input type="text" [(ngModel)]="aluno.email" class="form-control" id="email" placeholder="E-mail">
+  </div>

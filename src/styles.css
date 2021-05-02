@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    line-height: 20px;
+}
+
+ul {
+    list-style: none;
+}

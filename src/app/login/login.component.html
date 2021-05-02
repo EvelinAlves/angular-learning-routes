@@ -1,0 +1,13 @@
+<div class="container">
+    <h3>LOGIN</h3>
+    <br>
+    <div class="mb-3">
+        <label for="user" class="form-label">Usuário</label>
+        <input type="text" [(ngModel)]="usuario.nome" class="form-control" id="user" placeholder="Usuário">
+      </div>
+    <div class="mb-3">
+        <label for="senha" class="form-label">Senha</label>
+        <input type="password" [(ngModel)]="usuario.senha" class="form-control" id="senha" placeholder="Senha">
+    </div>
+    <button type="submit" class="btn btn-outline-success btn-sm" (click)="fazerLogin()">Login</button>
+</div>
